@@ -1,0 +1,98 @@
+body{
+	background-color: #F5DB57; 
+} 
+
+h1{
+	color: #84CBFF;
+	font-size: 50px; 
+	font: Oswald;
+	
+} 
+
+h2{
+	color: #84CBFF;
+	font-size: 40px;
+} 
+
+h3{
+	color:  #84CBFF;
+	font-size: 30px;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #84CBFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border: 1px black solid;
+} 
+
+.headerbody{
+   padding: 1em;
+   grid-column-start:1;
+   grid-column-end: span 1;
+   border: 10px #84CBFF solid;
+} 
+
+
+.leftsidebar{
+	
+	padding: 1em;
+	grid-column-start:1;
+	grid-column-end: span 1;
+	border: 10px #84CBFF solid;
+} 
+	
+
+
+.rightsidebar{
+	
+	padding: 1em;
+	grid-column-start:2;
+	grid-column-end: span 1;
+	border: 10px #84CBFF solid;
+} 
+
+.footerbody{
+	
+	padding: 1em;
+	grid-column-start:3;
+	grid-column-end: span 1;
+	border: 10px #84CBFF solid;
+} 
+
+.border{
+	border: 10px #84CBFF solid; 
+} 
+
+img{
+width: 550px;
+height: 550px; 
+} 
